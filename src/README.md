@@ -48,3 +48,12 @@ A aplicação usa um modelo de dados simples, com identificadores significativos
    - Ano escolar
 
 Todos os dados são armazenados em memória, o que significa que serão reiniciados quando o servidor for reiniciado.
+
+## Testes de backend
+
+Na raiz do repositório, instale as dependências e execute os testes:
+
+```
+pip install -r requirements.txt
+pytest -q tests/backend
+```
